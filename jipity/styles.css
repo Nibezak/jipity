@@ -1,0 +1,83 @@
+/* styles.css */
+
+nav {
+  color: #143f6b;
+  background-color: #f55353;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f54d; /* Set the background color for the entire page */
+  color: #f55353; /* Set the default text color */
+  text-align: center;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 20px;
+  border-radius: 20px;
+}
+
+header {
+  background-color: #143f6b; /* Set the header background color */
+  color: #f55353; /* Set the text color for the header */
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  color: #143f6b;
+  display: inline;
+  margin: 0 10px;
+  border-radius: 15px;
+  padding: 20px;
+  border-style: dotted;
+  border-width: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f55353; /* Set the link color */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.colorful-section {
+  background-color: #feb139; /* Set the background color for the sections */
+  color: #143f6b; /* Set the text color for the sections */
+  margin-bottom: 20px;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+a:link,
+a:visited {
+  background-color: #e6b566;
+  color: black;
+  border-radius: 20px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #a3ddcb;
+  text-decoration: underline;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 0.9em;
+  color: #e5707e;
+}
+
+.hover tr:hover {
+  background-color: #e5707e;
+}
